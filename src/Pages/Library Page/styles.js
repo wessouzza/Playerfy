@@ -1,26 +1,34 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    padding: 0 2rem;
-
+    
     h3{
-        padding:0.5rem  0;
+        padding:0.5rem  1.9rem;
         color: #fff;
     }
+    
+   .recently-played{
+       padding: 0 .5rem;
+       height: 15rem;
+       width: 45rem;
+       background-color: rgba(0, 0, 0, .2);
+       margin: 10px 2rem;
+       border-radius: 16px;
+       overflow: hidden;
+       overflow-y: overlay;
+   
+       ::-webkit-scrollbar {
+           display: none;
+       }
+   
+       h4{
+           position: fixed;
+           padding:0.5rem  0;
+           color: #c56cf0;
+           z-index: 100;
+       }
 
-    .left-frame {
-        display: grid;
-        place-items: center;
-        background-color: #888;
-        width: 19rem;
-        height: 19rem;
-        border-radius: .5rem;
-        box-shadow: .5px 5px 9px rgba(0, 0, 0, .3);
-        cursor: pointer;
-        transition: .3s;
+   } 
 
-        &:hover{
-            transform: scale(1.03);
-        }
-    }
+   
 `
