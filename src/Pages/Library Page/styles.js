@@ -9,7 +9,7 @@ export const Container = styled.div`
     
    .recently-played{
        padding: 0 .5rem;
-       height: 15rem;
+       height: 18rem;
        width: 45rem;
        background-color: rgba(0, 0, 0, .2);
        margin: 10px 2rem;
